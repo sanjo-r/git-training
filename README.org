@@ -1,0 +1,3 @@
+docker image build --tag debian --file Dockerfile .
+
+docker container run --name deb --rm --interactive --tty debian
